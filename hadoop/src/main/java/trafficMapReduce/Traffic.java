@@ -10,6 +10,7 @@ import org.apache.hadoop.io.WritableComparable;
 
 public class Traffic implements WritableComparable<Traffic>{
 	String string="test";
+	int i=2132;
     private int upNum;
     private int downNum;
     private int upPayload;
